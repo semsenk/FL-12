@@ -1,0 +1,95 @@
+/*
+
+write your code here
+
+*/
+
+.tm-nav-item-link:hover {
+	background-color: lightskyblue;
+	color: #fff;
+}
+
+.tm-banner {
+	background-image: linear-gradient(to right, lightskyblue, burlywood);
+}
+
+.tm-banner-inner {
+	background-color: #fff;
+}
+
+.tm-banner-text { 
+	text-shadow: 4px 6px 3px #333;
+	position: relative;
+	animation-name: text;
+	animation-duration: 4s;
+	transition-timing-function: ease-out;
+}
+
+@keyframes text {
+	0%    {background-color: #fff; left: 200px; top: 0px;}
+	100%  {background-color: #fff; left: 0px; top: 0px;}
+}
+ 
+div.tm-content-box.flex-2-col {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	line-height: 2;
+}
+
+.tm-section-description {
+	text-align: left;
+	text-indent: 25px;
+}
+
+li.box.box-bg:hover {
+	background-color: lightgrey;
+	color: lightskyblue;
+}
+
+.heading .padding-medium h2 {
+	text-align: center;
+	color: lightskyblue;
+}
+
+.padding-medium ol li {
+	list-style-type: lower-alpha;
+}
+
+.heading li:hover::before {
+	content: ">";
+	color: black;
+}
+
+.text::after {
+	content: "New";
+	color: red;
+	font-variant: small-caps;
+	font-weight: bold;
+	font-size: 10px;
+	vertical-align: super;
+}
+
+h2.tm-section-title  {
+	text-align: center;
+}
+
+.blocks p.tm-section-description + p {
+	letter-spacing: 5px;
+	word-spacing: 10px;
+	font-style: italic;
+}
+
+li.box-work:nth-child(odd) {
+	background-color: lightskyblue;
+	color: #fff;
+}
+
+li.box-work p::first-letter {
+    font-weight: bold;
+}
+
+.tm-section-description {
+	text-indent: 25px;
+	line-height: 30px;
+}
