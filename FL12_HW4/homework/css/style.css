@@ -92,9 +92,8 @@ header .header .box p {
 }
 
 section hr {
-   
    margin: 8% auto;
-   opacity:  50%;
+   color: #d2d2d2;
 }
 
 /*posts*/
