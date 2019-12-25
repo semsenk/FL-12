@@ -1,8 +1,8 @@
 // Identify triangle type
 
-var a = parseInt(prompt("Enter please the value for a:", ""));
-var b = parseInt(prompt("Enter please the value for b:", ""));
-var c = parseInt(prompt("Enter please the value for c:", ""));
+let a = parseInt(prompt("Enter please the value for a:"));
+let b = parseInt(prompt("Enter please the value for b:"));
+let c = parseInt(prompt("Enter please the value for c:"));
 
 if ((typeof(a) || typeof(b) || typeof(c)) === "" || undefined) {
 	window.alert("input values should be ONLY numbers");
