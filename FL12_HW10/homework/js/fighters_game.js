@@ -89,8 +89,4 @@ function battle(fighter1, fighter2) {
 		}       
 	}
 }
-
-// const myFighter1 = new Fighter({name: 'Maximus', damage: 25, hp: 100, strength: 30, agility: 25});
-// const myFighter2 = new Fighter({name: 'Semuel', damage: 30, hp: 88, strength: 33, agility: 20});
-
-// myFighter2.battle(myFighter1);
+ 
